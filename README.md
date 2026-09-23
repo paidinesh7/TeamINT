@@ -6,26 +6,60 @@ This repository is an offline-first, local cognitive environment built for Rainm
 
 ---
 
-## 1. Initial Setup (Two-Minute Configuration)
+## 1. Getting Started: Installation & Download Guide
 
-### A. Clone the Repository
-Save this folder locally on your machine (e.g., `~/rainmatter/context`).
+### Step 1: Install Gemini CLI (One-Time Prerequisite)
+This context vault is driven by **Gemini CLI**, an open-source terminal agent.
 
-### B. Launch the Operating Environment
-Navigate to the root directory and start the CLI session:
+1. **Verify Node.js:** Ensure you have Node.js (v18 or higher) installed. (If needed, download it from [nodejs.org](https://nodejs.org)).
+2. **Install Gemini CLI:** Open your terminal and run:
+   ```bash
+   npm install -g @google/gemini-cli
+   ```
+3. **Set Up Authentication:** Obtain a free Gemini API key from [Google AI Studio](https://aistudio.google.com) and set it in your environment:
+   ```bash
+   export GEMINI_API_KEY="your-api-key-here"
+   ```
+   *(Alternatively, simply launching `gemini` will guide you through browser login).*
+
+---
+
+### Step 2: Download Your Personal Context Vault
+
+Choose either of the two methods below to get this repository on your computer:
+
+#### Method A: Browser Download (1-Click ZIP — Recommended for Non-Technical Users)
+1. Navigate to the GitHub repository: **[https://github.com/paidinesh7/TeamINT](https://github.com/paidinesh7/TeamINT)**
+2. Click the green **Code** button located at the top-right, then select **Download ZIP**.
+3. Extract the downloaded `TeamINT-main.zip` file into your preferred workspace folder (e.g., `~/Documents/TeamINT`).
+4. Open your Terminal (Mac/Linux) or Command Prompt (Windows) and navigate into the extracted folder:
+   ```bash
+   cd ~/Documents/TeamINT-main
+   ```
+
+#### Method B: Terminal Git Clone
+If you use Git, clone the repository directly:
 ```bash
-cd ~/rainmatter/context
+git clone https://github.com/paidinesh7/TeamINT.git ~/TeamINT
+cd ~/TeamINT
+```
+
+---
+
+### Step 3: Launch & Autonomous Onboarding
+
+Once inside the folder, start your session:
+```bash
 gemini
 ```
 
-### C. Automated First-Time Initialization
-Upon your first launch, Gemini CLI inspects `staging/10_identity/profile.md`. If uninitialized, it prompts you for four core parameters:
+**On your very first launch**, Gemini CLI inspects `staging/10_identity/profile.md`, recognizes that your vault is unconfigured, and triggers the automated onboarding protocol. It will prompt you for four parameters:
 1. Full name.
 2. Primary sector or operational mandate at Rainmatter (Climate, Health, Fintech, Media, Foundation, Legal/Finance).
 3. Two to three core quarterly research hypotheses.
-4. Preferred analytical workflow (e.g., deep narrative drafting, quantitative unit-economic modeling, founder call synthesis).
+4. Preferred analytical workflow (e.g., narrative memos, quantitative unit-economic modeling, founder call synthesis).
 
-Gemini CLI will autonomously populate your profile, calibrate your dashboard, and format your bi-weekly share file.
+Gemini CLI will autonomously populate your `profile.md`, calibrate your `Dashboard.md`, and format your `share.md` dispatch file. You are now fully operational.
 
 ---
 
