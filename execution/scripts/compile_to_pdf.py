@@ -3,7 +3,7 @@ import os
 import weasyprint
 
 # =====================================================================
-# RAINMATTER TEAM PDF COMPILER (WEASYPRINT)
+# TEAMINT PDF COMPILER (WEASYPRINT)
 # =====================================================================
 # Usage:
 #   python compile_to_pdf.py input_file.html [output_file.pdf]

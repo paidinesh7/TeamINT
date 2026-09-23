@@ -1,6 +1,6 @@
 # Investment Evaluation Memorandum: [Enterprise Name]
 
-> *Rainmatter Capital Allocation Series — Concise Investment Review*
+> *Investment Evaluation Series — Concise Executive Review*
 
 ---
 
@@ -41,6 +41,6 @@
 
 ---
 
-## 5. Rainmatter Ecosystem Integration
-*   *Specific portfolio companies that can immediately integrate, distribute, or procure from this enterprise:*
-*   *Direct non-financial support Rainmatter can offer to improve its operational trajectory:*
+## 5. Portfolio & Network Synergy
+*   *Specific partner companies or network relationships that can immediately integrate, distribute, or procure from this enterprise:*
+*   *Direct strategic and operational support our team can provide to accelerate their trajectory:*

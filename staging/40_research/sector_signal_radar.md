@@ -6,7 +6,7 @@
 
 ## The Four Signal Vectors
 
-Venture capital performance is determined by non-consensus accuracy. Rather than relying on aggregate industry reports, Rainmatter audits structural friction at the operational root:
+High-conviction performance is determined by non-consensus accuracy. Rather than relying on aggregate industry reports, disciplined analysts audit structural friction at the operational root:
 
 ```
                             INFLECTION TOPOGRAPHY
@@ -43,4 +43,4 @@ Sovereign Policy    Physical Bottlenecks      Cultural Inflection  Executive Mig
 Before converting an observed signal into an active sourcing campaign, verify:
 1.  **Sovereign Defensibility:** Does the sector permit proprietary asset ownership (licenses, IP, physical manufacturing), or is it vulnerable to platform disintermediation?
 2.  **Unit-Economic Solvency:** Can early operators achieve positive contribution margins within 18 months, or does the business require sustained equity subsidies?
-3.  **Ecosystem Compounding:** Can Rainmatter's existing portfolio companies provide immediate commercial synergy, distribution, or technical partnership?
+3.  **Ecosystem Compounding:** Can your team, network, or existing portfolio enterprises provide immediate commercial synergy, distribution, or technical partnership?

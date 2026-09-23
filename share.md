@@ -15,7 +15,7 @@
 ### Primary Literature & Frameworks
 *   **[Title of Publication / Essay / Podcast](URL):**
     *   *Core Thesis:* [One to two sentences summarizing the non-consensus insight.]
-    *   *Underwriting Implication:* [Direct application to Rainmatter's capital allocation or portfolio guidance.]
+    *   *Strategic Implication:* [Direct application to our team's capital allocation, product roadmap, or operational focus.]
 
 ### Weak Signals & Structural Inflections
 *   **[Domain / Vector]:** [Concrete observation from `staging/40_research/sector_signal_radar.md`, e.g., "State utility procurement delays for sub-station transformers indicate that grid-scale solar expansion is bottlenecked, elevating the near-term necessity of distributed commercial battery storage."]

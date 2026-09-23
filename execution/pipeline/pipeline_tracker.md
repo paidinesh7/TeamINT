@@ -25,7 +25,7 @@
 ## Anti-Slippage Governance: The Seven-Day SLA
 
 *   **Seven-Day Interaction Rule:** No prospective founder under `P0` or `P1` evaluation may exceed seven calendar days without a definitive operational touchpoint or decision.
-*   **The Decisive Pass:** If an enterprise fails to satisfy Rainmatter's sovereign infrastructure or solvency criteria, communicate the pass decision promptly with concise, constructive feedback. Founders must never be held in indefinite evaluation.
+*   **The Decisive Pass:** If an enterprise fails to satisfy your core underwriting or solvency criteria, communicate the pass decision promptly with concise, constructive feedback. Founders must never be held in indefinite evaluation.
 
 ---
 

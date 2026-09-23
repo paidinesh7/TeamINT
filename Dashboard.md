@@ -1,6 +1,6 @@
 # Context Dispatch & Architecture Map
 
-> *[Your Name] — Rainmatter Personal Operations & Knowledge Base*
+> *[Your Name] — Personal Operations & Knowledge Base*
 
 ---
 

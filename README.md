@@ -1,8 +1,8 @@
-# Rainmatter Context Architecture: Operational Guide
+# TeamINT: Autonomous Context Architecture & Operating Guide
 
 > *"What is not documented in writing does not compound in memory."*
 
-This repository is an offline-first, local cognitive environment built for Rainmatter team members. It is designed to minimize meeting overhead, enforce disciplined underwriting standards, and enable asynchronous intellectual compounding through Gemini CLI.
+This repository is an offline-first, local cognitive environment built for high-performing teams, investment offices, and research groups. It is designed to minimize meeting overhead, enforce disciplined underwriting and operational standards, and enable asynchronous intellectual compounding through Gemini CLI.
 
 ---
 
@@ -55,7 +55,7 @@ gemini
 
 **On your very first launch**, Gemini CLI inspects `staging/10_identity/profile.md`, recognizes that your vault is unconfigured, and triggers the automated onboarding protocol. It will prompt you for four parameters:
 1. Full name.
-2. Primary sector or operational mandate at Rainmatter (Climate, Health, Fintech, Media, Foundation, Legal/Finance).
+2. Primary sector, focus area, or functional mandate within your team/organization.
 3. Two to three core quarterly research hypotheses.
 4. Preferred analytical workflow (e.g., narrative memos, quantitative unit-economic modeling, founder call synthesis).
 
@@ -122,6 +122,6 @@ Gemini CLI operates as your autonomous research associate. You simply speak or t
 
 ## 4. The Bi-Weekly Asynchronous Protocol
 
-Rainmatter operates on trust and asynchronous clarity over bureaucratic status meetings. 
+Effective teams operate on trust, intellectual autonomy, and asynchronous clarity over bureaucratic status meetings. 
 
-Every two weeks, update your **`share.md`** file with high-signal learnings, dealflow evaluations, and active portfolio interventions. These logs are synthesized into a consolidated team dispatch, maintaining organizational alignment without synchronous friction.
+Every two weeks, update your **`share.md`** file with high-signal learnings, dealflow evaluations, and active project or portfolio interventions. These logs can be synthesized into a consolidated team dispatch, maintaining organizational alignment without synchronous friction.
