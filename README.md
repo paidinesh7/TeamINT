@@ -1,4 +1,4 @@
-# TeamINT: Autonomous Context Architecture & Operating Guide
+# TeamINT: Context Architecture
 
 > *"What is not documented in writing does not compound in memory."*
 
