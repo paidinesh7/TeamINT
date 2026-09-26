@@ -120,8 +120,22 @@ Gemini CLI operates as your autonomous research associate. You simply speak or t
 
 ---
 
-## 4. The Bi-Weekly Asynchronous Protocol
+## 4. The Bi-Weekly Asynchronous Protocol & Executive Magazine
 
 Effective teams operate on trust, intellectual autonomy, and asynchronous clarity over bureaucratic status meetings. 
 
-Every two weeks, update your **`share.md`** file with high-signal learnings, dealflow evaluations, and active project or portfolio interventions. These logs can be synthesized into a consolidated team dispatch, maintaining organizational alignment without synchronous friction.
+### A. Individual Fortnightly Update
+Every two weeks, update your personal **`share.md`** file with high-signal curations, dealflow evaluations, and active portfolio interventions. You can do this hands-free via Gemini CLI:
+> *"It is the end of the sprint. Scan my notes, memos, weak signals, and pipeline actions over the past two weeks, and prepare my share.md file."*
+
+### B. Automated Team Magazine Compilation
+To combine individual team members' dispatches into a unified, organization-wide briefing:
+1. Place members' completed `share.md` files into `execution/dispatches/` (e.g., as `arjun_climate.md`, `priya_fintech.md`).
+2. Run the automated aggregator:
+   ```bash
+   python execution/scripts/aggregate_dispatches.py
+   ```
+   *(Or simply instruct Gemini CLI: `"Aggregate all dispatches in execution/dispatches/ into an executive briefing."`)*
+3. The script autonomously deduplicates dealflow, cross-pollinates weak signals across sectors, collates portfolio interventions, and compiles:
+   * **`fortnightly_executive_dispatch.html`:** Publication-grade Colossus layout.
+   * **`fortnightly_executive_dispatch.pdf`:** Print-ready executive PDF ready for distribution to leadership and partners.

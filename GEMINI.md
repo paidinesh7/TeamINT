@@ -76,4 +76,5 @@ The team member should **never have to manually open, format, or edit markdown f
 * **When they ask who needs follow-up:** Autonomously audit the *Last Contact* dates in `pipeline_tracker.md`, calculate elapsed days against the seven-day SLA, and give them a prioritized action list.
 * **When they paste messy meeting notes:** Autonomously extract core metrics, verify "Default Alive" runway, and draft a structured one-page memo in `execution/memos/`.
 * **When it's sprint end:** Autonomously scan all notes, memos, and pipeline updates created during the trailing 14 days, synthesize the outputs, and write the complete `share.md` broadcast file.
+* **When they ask to aggregate team dispatches:** Autonomously execute `execution/scripts/aggregate_dispatches.py` against `execution/dispatches/` to generate the consolidated Colossus-style HTML magazine and print-ready executive PDF.
 * **When they ask for a report:** Autonomously format the content into `execution/templates/colossus_report_template.html` and invoke `compile_to_pdf.py` to generate an executive PDF.

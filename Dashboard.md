@@ -42,6 +42,7 @@
 *   **[[execution/memos/memo_template|Investment Memo Template]]:** Structured one-page deal evaluation template.
 *   **[[execution/updates/update_template|Portfolio Update Template]]:** Framework for auditing portfolio company health and operating metrics.
 *   **[[execution/templates/colossus_report_template.html|Colossus Report Template]]:** Publication-grade HTML/CSS layout for generating print-ready reports.
+*   **[[execution/dispatches/|Team Dispatches & Magazine Compiler]]:** Intake directory and automated compiler for aggregating multi-member share files into a consolidated Colossus executive briefing.
 
 ---
 *Initiate a terminal session with `gemini` to query this repository, draft memoranda, or synthesize dispatches.*

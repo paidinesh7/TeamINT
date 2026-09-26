@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Team Fortnightly Dispatch — Current Sprint</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 18mm 20mm;
+            @bottom-right {
+                content: "Page " counter(page) " of " counter(pages);
+                font-family: 'Inter', -apple-system, sans-serif;
+                font-size: 8pt;
+                color: #718096;
+            }
+            @bottom-left {
+                content: "Team Intelligence Executive Dispatch — Confidential";
+                font-family: 'Inter', -apple-system, sans-serif;
+                font-size: 8pt;
+                color: #718096;
+                font-weight: 500;
+            }
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            color: #2D3748;
+            line-height: 1.6;
+            font-size: 9.8pt;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header-container {
+            border-bottom: 3px solid #0F2942;
+            padding-bottom: 18px;
+            margin-bottom: 25px;
+        }
+
+        .category-tag {
+            font-size: 8.5pt;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            color: #2F855A;
+            margin-bottom: 6px;
+        }
+
+        .title {
+            font-size: 22pt;
+            color: #0F2942;
+            margin: 0 0 8px 0;
+            font-weight: 800;
+            line-height: 1.15;
+            letter-spacing: -0.5px;
+        }
+
+        .subtitle {
+            font-size: 10.5pt;
+            color: #4A5568;
+            margin: 0;
+            font-style: italic;
+            font-weight: 400;
+            line-height: 1.5;
+        }
+
+        .metadata {
+            margin-top: 12px;
+            font-size: 8pt;
+            color: #718096;
+            font-weight: 500;
+        }
+
+        .metrics-grid {
+            display: flex;
+            gap: 15px;
+            margin: 20px 0;
+        }
+
+        .metric-box {
+            flex: 1;
+            background-color: #F8FAFC;
+            border: 1px solid #E2E8F0;
+            padding: 12px 15px;
+            border-radius: 4px;
+            text-align: center;
+        }
+
+        .metric-num {
+            font-size: 18pt;
+            font-weight: 800;
+            color: #0F2942;
+            line-height: 1.2;
+        }
+
+        .metric-label {
+            font-size: 7.5pt;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #718096;
+            font-weight: 600;
+            margin-top: 4px;
+        }
+
+        h2 {
+            font-size: 13pt;
+            color: #0F2942;
+            margin-top: 25px;
+            margin-bottom: 10px;
+            border-bottom: 1px solid #CBD5E0;
+            padding-bottom: 4px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 15px 0;
+            font-size: 8.5pt;
+        }
+
+        th {
+            background-color: #0F2942;
+            color: white;
+            font-weight: 600;
+            text-align: left;
+            padding: 6px 8px;
+            border: 1px solid #0F2942;
+        }
+
+        td {
+            padding: 6px 8px;
+            border: 1px solid #E2E8F0;
+            vertical-align: top;
+        }
+
+        tr:nth-child(even) {
+            background-color: #F8FAFC;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 2px 6px;
+            font-size: 7.5pt;
+            font-weight: 700;
+            border-radius: 3px;
+            text-transform: uppercase;
+        }
+
+        .verdict-pursue {
+            background-color: #DEF7EC;
+            color: #03543F;
+        }
+
+        .verdict-pass {
+            background-color: #FDE8E8;
+            color: #9B1C1C;
+        }
+
+        .signal-card {
+            border-left: 3px solid #2F855A;
+            background-color: #F0FDF4;
+            padding: 10px 14px;
+            margin-bottom: 10px;
+            border-radius: 0 4px 4px 0;
+        }
+
+        .signal-meta {
+            font-size: 8pt;
+            color: #2F855A;
+            font-weight: 600;
+            margin-bottom: 3px;
+        }
+
+        .signal-desc {
+            font-size: 9pt;
+            color: #2D3748;
+        }
+
+        .intervention-item {
+            padding: 8px 12px;
+            border-bottom: 1px solid #EDF2F7;
+            font-size: 9pt;
+        }
+
+        .author-tag {
+            color: #718096;
+            font-style: italic;
+            font-size: 8pt;
+            margin-left: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header-container">
+        <div class="category-tag">Institutional Synthesis &bull; Fortnightly Review</div>
+        <h1 class="title">Team Fortnightly Dispatch</h1>
+        <p class="subtitle">Consolidated operational review synthesizing dealflow velocity, cross-pollinated sector weak signals, and active enterprise interventions.</p>
+        <div class="metadata">
+            Period: Current Sprint &bull; Participating Members: 2 &bull; Architecture: TeamINT
+        </div>
+    </div>
+
+    <div class="metrics-grid">
+        <div class="metric-box">
+            <div class="metric-num">4</div>
+            <div class="metric-label">Deals Evaluated</div>
+        </div>
+        <div class="metric-box">
+            <div class="metric-num">0</div>
+            <div class="metric-label">Weak Signals Logged</div>
+        </div>
+        <div class="metric-box">
+            <div class="metric-num">0</div>
+            <div class="metric-label">Interventions Executed</div>
+        </div>
+        <div class="metric-box">
+            <div class="metric-num">0</div>
+            <div class="metric-label">Priorities in Flight</div>
+        </div>
+    </div>
+
+    <h2>1. Consolidated Dealflow & Sourcing Matrix</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Company</th>
+                <th>Sector</th>
+                <th>Stage</th>
+                <th>Business Model</th>
+                <th>Verdict</th>
+                <th>Underwriting Thesis</th>
+                <th>Lead</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+        <tr>
+            <td><strong>GridVault Energy</strong></td>
+            <td>Climate</td>
+            <td>Seed: ₹4 Cr on ₹24 Cr</td>
+            <td>Substation-level BESS container manufacturing</td>
+            <td><span class="badge verdict-pursue">**Pursue**</span></td>
+            <td>Default Alive unit economics, holds proprietary battery thermal management IP, 4.2x local margin.</td>
+            <td><em>Arjun Mehta</em></td>
+        </tr>
+        
+        <tr>
+            <td><strong>EcoTrack Carbon</strong></td>
+            <td>Climate</td>
+            <td>Pre-Seed: ₹1.5 Cr on ₹12 Cr</td>
+            <td>SaaS carbon accounting dashboard</td>
+            <td><span class="badge verdict-pass">**Pass**</span></td>
+            <td>Pure software wrapper with no physical auditing moat, vulnerable to automated LLM workflow extraction.</td>
+            <td><em>Arjun Mehta</em></td>
+        </tr>
+        
+        <tr>
+            <td><strong>Sovereign Ledger</strong></td>
+            <td>Fintech</td>
+            <td>Seed: ₹6 Cr on ₹35 Cr</td>
+            <td>Real-time Account Aggregator reconciliation node</td>
+            <td><span class="badge verdict-pursue">**Pursue**</span></td>
+            <td>Owns direct NPCI/AA gateway license, zero BaaS dependency, organically profitable on transaction fees.</td>
+            <td><em>Priya Sharma</em></td>
+        </tr>
+        
+        <tr>
+            <td><strong>CreditZap</strong></td>
+            <td>Fintech</td>
+            <td>Pre-Seed: ₹2 Cr on ₹14 Cr</td>
+            <td>Instant checkout consumer BNPL</td>
+            <td><span class="badge verdict-pass">**Pass**</span></td>
+            <td>High delinquency profile, relies on third-party NBFC rental with 32% CAC drag.</td>
+            <td><em>Priya Sharma</em></td>
+        </tr>
+        
+        </tbody>
+    </table>
+
+    <h2>2. Cross-Pollinated Weak Signals & Structural Inflections</h2>
+    <p style='color: #718096;'>No weak signals registered this sprint.</p>
+
+    <h2>3. Portfolio & Enterprise Interventions</h2>
+    <p style='color: #718096;'>No portfolio interventions logged this sprint.</p>
+
+    <h2>4. Active Fortnightly Priorities Across Team</h2>
+    <ul style="padding-left: 20px;">
+        <li style='color: #718096;'>No upcoming priorities specified.</li>
+    </ul>
+
+</body>
+</html>
